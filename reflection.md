@@ -14,9 +14,9 @@ Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| Guess 60, secret 50 | "Too High" / "Go LOWER" | "Go HIGHER!" | none |
+| Any guess on an even attempt | Normal comparison | Secret converted to str, so comparison was lexicographic (e.g. "9" > "10") | none |
+| Click New Game after a win/loss | Fresh game in current difficulty | Range reset to 1-100, status/score/history not reset, so the game stayed over | none |
 
 ---
 
